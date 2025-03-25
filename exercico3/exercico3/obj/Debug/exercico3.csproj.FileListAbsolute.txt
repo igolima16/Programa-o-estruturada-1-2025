@@ -1,0 +1,7 @@
+C:\Users\aluno\source\repos\exercico3\exercico3\bin\Debug\exercico3.exe.config
+C:\Users\aluno\source\repos\exercico3\exercico3\bin\Debug\exercico3.exe
+C:\Users\aluno\source\repos\exercico3\exercico3\bin\Debug\exercico3.pdb
+C:\Users\aluno\source\repos\exercico3\exercico3\obj\Debug\exercico3.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\exercico3\exercico3\obj\Debug\exercico3.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\exercico3\exercico3\obj\Debug\exercico3.exe
+C:\Users\aluno\source\repos\exercico3\exercico3\obj\Debug\exercico3.pdb
