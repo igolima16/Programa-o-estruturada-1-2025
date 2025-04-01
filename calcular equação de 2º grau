@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace projeto1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("digite o valor de A");
+            double a = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("digite o de B ");
+            double b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("digite o valor de c numero");
+            double c = int.Parse(Console.ReadLine());
+
+            double delta = Math.Pow(b, 2) - (4 * c * a);
+
+            
+
+            if (a == 0)
+
+                Console.WriteLine(" Esta não é uma equação de 2º grau, pois o A é igual a 0");
+            else
+                if (delta < 0)
+            {
+                Console.WriteLine(" Esta não é uma equação de 2º grau, pois o Delta é menor que 0");
+            }
+            else
+            { 
+            double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+
+            double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+            
+                Console.WriteLine("O resultado desta equação é:");
+                Console.WriteLine("X1 = {0}", x1);
+                Console.WriteLine("X2 = {0}", x2);
+
+            } 
+          
+
+                
+
+            Console.ReadKey();
+        }
+    }
+}
