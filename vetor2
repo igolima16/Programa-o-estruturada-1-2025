@@ -1,0 +1,24 @@
+ string[] nome = new string[5];
+ double[] p1 = new double[5];
+ double[] p2 = new double[5];
+
+ for (int i = 0; i < nome.Length; i++)
+ {
+     Console.WriteLine("Digite o nome o {0}° aluno", i + 1);
+     nome[i] = Console.ReadLine();
+
+     Console.WriteLine("Digite a nota da p1 do {0}° aluno",i + 1);
+     p1[i] = int.Parse(Console.ReadLine());
+
+     Console.WriteLine("Digite a nota da p2 do {0}° aluno", i + 1);
+     p2[i] = int.Parse(Console.ReadLine());
+
+     
+ }
+ Console.Clear();
+ for (int i = 0; i < nome.Length; i++)
+ {
+     Console.WriteLine("nome:{0} \nP1:{1} \nP2:{2} media:{3}", nome[i], p1[i], p2[i],(p1[i] + p2[i]) / 2);
+ }
+
+ Console.ReadKey();
